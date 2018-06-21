@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a46d85b68e245b3409f5af6a841ef9d6, type: 3}
+  m_Name: Ring of Power
+  m_EditorClassIdentifier: 
+  equipTo: 2
+  icon: {fileID: 0}
+  mesh: {fileID: 0}
+  description: Grants extra strength.
+  attributeMods:
+  - {fileID: 11400000, guid: 4ecee9b21ed99d84b818900607155a5b, type: 2}
+  attackMods: []
+  defenseMods: []

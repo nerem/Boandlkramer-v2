@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 719bce487c962d64c9aa4afeca96fcce, type: 3}
+  m_Name: SimpleTileset
+  m_EditorClassIdentifier: 
+  floor:
+  - {fileID: 1574779126691370, guid: 68b743b6a0bb59643b5fe8a4c8ef34cf, type: 2}
+  wall:
+  - {fileID: 1866013484909434, guid: cc475fc9512ae7947b271887a1ae2d1b, type: 2}
+  door:
+  - {fileID: 1829043556711630, guid: 96ccc8c19af22974b98f4aa78b9a2382, type: 2}
+  column:
+  - {fileID: 1545253352532908, guid: 29eb460303741274785b10045400457e, type: 2}

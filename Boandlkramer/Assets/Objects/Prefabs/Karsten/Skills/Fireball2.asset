@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 490b7256a6a0f5144b9e99c5becc64bd, type: 3}
+  m_Name: Fireball2
+  m_EditorClassIdentifier: 
+  icon: {fileID: 21300000, guid: 05c875ecf4684cf4eb8254b1d8ea4547, type: 3}
+  description: "A slow but powerful fire ball with area damage. Don\xB4t hurt yourself"
+  manaCost: 20
+  skillLevel: 2
+  descriptionNextLevel: 'Fire damage: +10, AOE range: +100%,  Mana cost: 30'
+  nextLevelSkill: {fileID: 11400000, guid: 59cbb17808c94964bb74f8d8c818ee16, type: 2}
+  character: {fileID: 0}
+  magicEffect: {fileID: 0}
+  damage: 30
+  dmgType: 4
+  range: 1
+  speed: 3
+  AOERange: 0.2
+  projectile: {fileID: 1326737564180860, guid: e300e142e49a3c148923f1f95c169698, type: 2}

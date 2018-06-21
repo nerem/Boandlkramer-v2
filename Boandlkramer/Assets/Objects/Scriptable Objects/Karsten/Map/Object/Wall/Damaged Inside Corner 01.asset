@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18570afae75e54146ad0d408d996c2af, type: 3}
+  m_Name: Damaged Inside Corner 01
+  m_EditorClassIdentifier: 
+  Object: {fileID: 1845785912081624, guid: 04a637525b7bc2a478942c54aa966236, type: 2}
+  Tags:
+  - Wall
+  - Left High
+  - Right High
+  Rules:
+  - Direction: 2
+    Rule: {fileID: 11400000, guid: 26c5065255d8a1b4ba0a5c4687c55bf4, type: 2}
+  - Direction: 1
+    Rule: {fileID: 11400000, guid: c0cebbb5b588af841a4bc09c61b2f083, type: 2}

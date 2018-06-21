@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 465932d9dd19e2e49bae7d4564f3ed6d, type: 3}
+  m_Name: Basic Theme
+  m_EditorClassIdentifier: 
+  Floors:
+  - {fileID: 1004669557597506, guid: ce6393b2935db7c448d17013ddd3bcf6, type: 2}
+  Walls:
+  - {fileID: 1395449398119936, guid: 53fa7c75018f2554f804f774428cf543, type: 2}
+  Doors: []
+  InsideCorners:
+  - {fileID: 1197432379056330, guid: fee6544b75f26f54692b8f79b7470562, type: 2}
+  OutsideCorners:
+  - {fileID: 1926058073470490, guid: b5c209cd28c9d3d46b155f701b527612, type: 2}

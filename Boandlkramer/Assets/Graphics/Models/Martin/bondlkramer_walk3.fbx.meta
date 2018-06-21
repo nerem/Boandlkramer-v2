@@ -1,0 +1,897 @@
+fileFormatVersion: 2
+guid: baf25101e763ff146bc15d89aeeb6ddf
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Bone
+    100004: Bone.001
+    100006: Bone.002
+    100008: Bone.002_end
+    100010: Bone.003
+    100012: Bone_end
+    100014: Cylinder
+    100016: Cylinder.001
+    100018: ellbogenik.l
+    100020: ellbogenik.l_end
+    100022: ellbogenik.r
+    100024: ellbogenik.r_end
+    100026: elle.l
+    100028: elle.r
+    100030: femurr
+    100032: femurr.001
+    100034: fuss.l
+    100036: fuss.l_end
+    100038: fuss.r
+    100040: fuss.r_end
+    100042: fussik.l
+    100044: fussik.l_end
+    100046: Fussik.r
+    100048: Fussik.r_end
+    100050: fussr
+    100052: fussr.001
+    100054: genick
+    100056: hand.l
+    100058: hand.r
+    100060: handgelenk.l
+    100062: handgelenk.r
+    100064: handgelenk.r_end
+    100066: handgelenkik.l
+    100068: handgelenkik.l_end
+    100070: handgelenkik.r
+    100072: handgelenkik.r_end
+    100074: kappe
+    100076: kiefer
+    100078: kieferbone
+    100080: knieik.l
+    100082: knieik.l_end
+    100084: knieik.r
+    100086: knieik.r_end
+    100088: knier
+    100090: knier.001
+    100092: kniescheiber
+    100094: kniescheiber.001
+    100096: kopf
+    100098: kopf_end
+    100100: kopfik
+    100102: kopfik_end
+    100104: lende
+    100106: oberarm.l
+    100108: oberarm.r
+    100110: oberarmm.l
+    100112: oberarmm.r
+    100114: robe
+    100116: schaedel
+    100118: schenkel.l
+    100120: schenkel.r
+    100122: schiebeinr
+    100124: schiebeinr.001
+    100126: speiche.l
+    100128: speiche.r
+    100130: unterarm.l
+    100132: unterarm.r
+    100134: wade.l
+    100136: wade.r
+    100138: wadenbeinr
+    100140: wadenbeinr.001
+    100142: waffe.l
+    100144: waffe.l_end
+    100146: wirbelsaeule
+    100148: wirbelsaeule 1
+    400000: //RootNode
+    400002: Bone
+    400004: Bone.001
+    400006: Bone.002
+    400008: Bone.002_end
+    400010: Bone.003
+    400012: Bone_end
+    400014: Cylinder
+    400016: Cylinder.001
+    400018: ellbogenik.l
+    400020: ellbogenik.l_end
+    400022: ellbogenik.r
+    400024: ellbogenik.r_end
+    400026: elle.l
+    400028: elle.r
+    400030: femurr
+    400032: femurr.001
+    400034: fuss.l
+    400036: fuss.l_end
+    400038: fuss.r
+    400040: fuss.r_end
+    400042: fussik.l
+    400044: fussik.l_end
+    400046: Fussik.r
+    400048: Fussik.r_end
+    400050: fussr
+    400052: fussr.001
+    400054: genick
+    400056: hand.l
+    400058: hand.r
+    400060: handgelenk.l
+    400062: handgelenk.r
+    400064: handgelenk.r_end
+    400066: handgelenkik.l
+    400068: handgelenkik.l_end
+    400070: handgelenkik.r
+    400072: handgelenkik.r_end
+    400074: kappe
+    400076: kiefer
+    400078: kieferbone
+    400080: knieik.l
+    400082: knieik.l_end
+    400084: knieik.r
+    400086: knieik.r_end
+    400088: knier
+    400090: knier.001
+    400092: kniescheiber
+    400094: kniescheiber.001
+    400096: kopf
+    400098: kopf_end
+    400100: kopfik
+    400102: kopfik_end
+    400104: lende
+    400106: oberarm.l
+    400108: oberarm.r
+    400110: oberarmm.l
+    400112: oberarmm.r
+    400114: robe
+    400116: schaedel
+    400118: schenkel.l
+    400120: schenkel.r
+    400122: schiebeinr
+    400124: schiebeinr.001
+    400126: speiche.l
+    400128: speiche.r
+    400130: unterarm.l
+    400132: unterarm.r
+    400134: wade.l
+    400136: wade.r
+    400138: wadenbeinr
+    400140: wadenbeinr.001
+    400142: waffe.l
+    400144: waffe.l_end
+    400146: wirbelsaeule
+    400148: wirbelsaeule 1
+    2300000: Cylinder
+    2300002: Cylinder.001
+    2300004: kappe
+    2300006: schaedel
+    3300000: Cylinder
+    3300002: Cylinder.001
+    3300004: kappe
+    3300006: schaedel
+    4300000: schaedel
+    4300002: kappe
+    4300004: Cylinder
+    4300006: Cylinder.001
+    4300008: kniescheiber.001
+    4300010: fussr.001
+    4300012: hand.l
+    4300014: elle.l
+    4300016: speiche.l
+    4300018: oberarmm.l
+    4300020: kiefer
+    4300022: oberarmm.r
+    4300024: elle.r
+    4300026: speiche.r
+    4300028: hand.r
+    4300030: femurr
+    4300032: knier
+    4300034: kniescheiber
+    4300036: wadenbeinr
+    4300038: schiebeinr
+    4300040: fussr
+    4300042: schiebeinr.001
+    4300044: wadenbeinr.001
+    4300046: knier.001
+    4300048: femurr.001
+    4300050: robe
+    7400000: walk
+    7400002: idle
+    9500000: //RootNode
+    13700000: elle.l
+    13700002: elle.r
+    13700004: femurr
+    13700006: femurr.001
+    13700008: fussr
+    13700010: fussr.001
+    13700012: hand.l
+    13700014: hand.r
+    13700016: kiefer
+    13700018: knier
+    13700020: knier.001
+    13700022: kniescheiber
+    13700024: kniescheiber.001
+    13700026: oberarmm.l
+    13700028: oberarmm.r
+    13700030: robe
+    13700032: schiebeinr
+    13700034: schiebeinr.001
+    13700036: speiche.l
+    13700038: speiche.r
+    13700040: wadenbeinr
+    13700042: wadenbeinr.001
+    2186277476908879412: ImportLogs
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material
+    second: {fileID: 2100000, guid: 77efe5a690e04a04faedf52ccfe62ac4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.002
+    second: {fileID: 2100000, guid: b696916bb03b11c49ba875ce3c03c9a9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.003
+    second: {fileID: 2100000, guid: f92d78d16989afa48a7cd3743083adc2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: No Name
+    second: {fileID: 2100000, guid: 349bc745edd471243a21746bf07b54c0, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: "\nClip 'wirbelsaeule|walk' has import animation warnings
+      that might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'genick' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n"
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: walk
+      takeName: wirbelsaeule|walk
+      firstFrame: 0
+      lastFrame: 24
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: idle
+      takeName: wirbelsaeule|walk
+      firstFrame: 40
+      lastFrame: 88
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human:
+    - boneName: lende
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: schenkel.l
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: schenkel.r
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: wade.l
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: wade.r
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: fuss.l
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: fuss.r
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: wirbelsaeule 1
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: kopf
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: kieferbone
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: oberarm.l
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: oberarm.r
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: unterarm.l
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: unterarm.r
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: handgelenk.l
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: handgelenk.r
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bone.003
+      humanName: LeftEye
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bone.001
+      humanName: RightEye
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: bondlkramer_walk3(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: elle.l
+      parentName: bondlkramer_walk3(Clone)
+      position: {x: -0.048619755, y: 4.5623355, z: 0.2576225}
+      rotation: {x: -0.7044438, y: -0.020574674, z: 0.7079804, w: 0.045819018}
+      scale: {x: 4.5036077, y: 4.503608, z: 44.02555}
+    - name: elle.r
+      parentName: bondlkramer_walk3(Clone)
+      position: {x: -0.048619755, y: 4.5623364, z: 0.2576226}
+      rotation: {x: 0.7068036, y: -0.020708226, z: 0.7056263, w: -0.045732033}
+      scale: {x: -4.503608, y: -4.503608, z: -44.025547}
+    - name: femurr
+      parentName: bondlkramer_walk3(Clone)
+      position: {x: -0.048619635, y: 4.5623355, z: 0.25762257}
+      rotation: {x: -0.67559326, y: -0.10860758, z: -0.2087435, w: 0.6987162}
+      scale: {x: 6.9550037, y: 6.955004, z: 79.989586}
+    - name: femurr.001
+      parentName: bondlkramer_walk3(Clone)
+      position: {x: -0.048619635, y: 4.5623355, z: 0.2576226}
+      rotation: {x: 0.6987164, y: 0.2087435, z: -0.10860409, w: 0.6755936}
+      scale: {x: -6.9550037, y: -6.9550037, z: -79.989586}
+    - name: fussr
+      parentName: bondlkramer_walk3(Clone)
+      position: {x: -0.048619602, y: 4.5623355, z: 0.25762254}
+      rotation: {x: 0.070268326, y: 0.11932748, z: -0.008466824, w: 0.9903291}
+      scale: {x: 20.326172, y: 11.050503, z: 11.050504}
+    - name: fussr.001
+      parentName: bondlkramer_walk3(Clone)
+      position: {x: -0.048619695, y: 4.5623364, z: 0.25762257}
+      rotation: {x: 0.07026674, y: -0.1193257, z: 0.008466503, w: 0.9903294}
+      scale: {x: 20.326172, y: 11.050504, z: 11.050503}
+    - name: hand.l
+      parentName: bondlkramer_walk3(Clone)
+      position: {x: -0.048619755, y: 4.5623355, z: 0.2576226}
+      rotation: {x: 0.5922387, y: -0.38633317, z: -0.5922386, w: -0.38633326}
+      scale: {x: 3.5802648, y: 3.5802648, z: 3.5802648}
+    - name: hand.r
+      parentName: bondlkramer_walk3(Clone)
+      position: {x: -0.04862023, y: 4.5623355, z: 0.2576226}
+      rotation: {x: 0.38633552, y: -0.5922372, z: 0.3863355, w: 0.5922372}
+      scale: {x: -3.5802648, y: -3.5802646, z: -3.5802646}
+    - name: kiefer
+      parentName: bondlkramer_walk3(Clone)
+      position: {x: -0.15873617, y: 4.680708, z: 0.20344926}
+      rotation: {x: 0.5188695, y: 0.48546484, z: -0.48072866, w: 0.5138078}
+      scale: {x: 3.1112857, y: 2.2993805, z: 6.1163387}
+    - name: knier
+      parentName: bondlkramer_walk3(Clone)
+      position: {x: -0.048619635, y: 4.5623355, z: 0.2576226}
+      rotation: {x: -0.00000013767877, y: 0.7071068, z: 0.70710677, w: 0.00000013767878}
+      scale: {x: -14.522457, y: -14.522457, z: -16.707403}
+    - name: knier.001
+      parentName: bondlkramer_walk3(Clone)
+      position: {x: -0.048619695, y: 4.5623355, z: 0.25762257}
+      rotation: {x: 0.00000013767877, y: 0.7071068, z: -0.70710677, w: 0.00000013767878}
+      scale: {x: 14.522457, y: 14.522457, z: 16.707403}
+    - name: kniescheiber
+      parentName: bondlkramer_walk3(Clone)
+      position: {x: -0.048619814, y: 4.5623355, z: 0.25762263}
+      rotation: {x: 0.3948946, y: 0.42812115, z: 0.7837331, w: 0.21571486}
+      scale: {x: -7.016139, y: -4.1961737, z: -8.07174}
+    - name: kniescheiber.001
+      parentName: bondlkramer_walk3(Clone)
+      position: {x: -0.048619755, y: 4.562335, z: 0.25762254}
+      rotation: {x: -0.42812002, y: -0.3948955, z: 0.21571139, w: 0.78373426}
+      scale: {x: 7.0161386, y: 4.1961727, z: 8.071739}
+    - name: oberarmm.l
+      parentName: bondlkramer_walk3(Clone)
+      position: {x: -0.048619755, y: 4.5623364, z: 0.2576226}
+      rotation: {x: 0.7069963, y: -0.012524928, z: -0.70699537, w: -0.012524944}
+      scale: {x: 9.00779, y: 9.00779, z: 53.975464}
+    - name: oberarmm.r
+      parentName: bondlkramer_walk3(Clone)
+      position: {x: -0.048619755, y: 4.5623364, z: 0.25762254}
+      rotation: {x: 0.7069963, y: 0.012526193, z: 0.7069954, w: -0.0125262095}
+      scale: {x: -9.00779, y: -9.00779, z: -53.975464}
+    - name: robe
+      parentName: bondlkramer_walk3(Clone)
+      position: {x: -0.048619665, y: 4.5623355, z: 0.2576226}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 128.4664, y: 100, z: 394.53674}
+    - name: schiebeinr
+      parentName: bondlkramer_walk3(Clone)
+      position: {x: -0.04861972, y: 4.5623355, z: 0.25762257}
+      rotation: {x: -0.700749, y: 0.0946096, z: 0.09460961, w: 0.7007489}
+      scale: {x: 7.2150025, y: 7.2150025, z: 46.45075}
+    - name: schiebeinr.001
+      parentName: bondlkramer_walk3(Clone)
+      position: {x: -0.048619635, y: 4.5623355, z: 0.25762257}
+      rotation: {x: 0.70074916, y: -0.09460803, z: 0.09460804, w: 0.7007491}
+      scale: {x: -7.215002, y: -7.215002, z: -46.450745}
+    - name: speiche.l
+      parentName: bondlkramer_walk3(Clone)
+      position: {x: -0.048619755, y: 4.5623355, z: 0.25762254}
+      rotation: {x: -0.051036865, y: -0.7080001, z: 0.025725633, w: 0.70389587}
+      scale: {x: -4.503608, y: -4.503608, z: -44.025547}
+    - name: speiche.r
+      parentName: bondlkramer_walk3(Clone)
+      position: {x: -0.048619755, y: 4.5623355, z: 0.2576226}
+      rotation: {x: -0.05091425, y: 0.7052714, z: -0.02589735, w: 0.7066324}
+      scale: {x: 4.503608, y: 4.503608, z: 44.025547}
+    - name: wadenbeinr
+      parentName: bondlkramer_walk3(Clone)
+      position: {x: -0.048619665, y: 4.5623355, z: 0.25762254}
+      rotation: {x: -0.7162496, y: 0.115133904, z: 0.073250465, w: 0.684372}
+      scale: {x: 2.7479336, y: 2.7479336, z: 58.388554}
+    - name: wadenbeinr.001
+      parentName: bondlkramer_walk3(Clone)
+      position: {x: -0.048619635, y: 4.5623355, z: 0.25762254}
+      rotation: {x: 0.71029025, y: -0.068956316, z: 0.11775333, w: 0.69055563}
+      scale: {x: -2.7479336, y: -2.7479339, z: -58.388542}
+    - name: wirbelsaeule
+      parentName: bondlkramer_walk3(Clone)
+      position: {x: -0.048619654, y: 4.5623355, z: 0.25762257}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: lende
+      parentName: wirbelsaeule
+      position: {x: 0.00057431683, y: 0.0030733952, z: 0.001781584}
+      rotation: {x: 0.49804112, y: 0.498049, z: 0.5019514, w: 0.50194335}
+      scale: {x: 1.000004, y: 0.999998, z: 1.0000066}
+    - name: wirbelsaeule 1
+      parentName: lende
+      position: {x: -3.810328e-10, y: 0.011400945, z: 1.3551471e-12}
+      rotation: {x: 0.0027592778, y: -0.70710707, z: -0.0027593249, w: 0.70709574}
+      scale: {x: 1.0000018, y: 0.9999996, z: 0.99999726}
+    - name: genick
+      parentName: wirbelsaeule 1
+      position: {x: -3.8479584e-11, y: 0.018291116, z: -9.897576e-12}
+      rotation: {x: 0.0000000062864274, y: 0.000000029802322, z: -0.000000035506673,
+        w: 1}
+      scale: {x: 1.0000018, y: 0.9999995, z: 1.0000011}
+    - name: kopf
+      parentName: genick
+      position: {x: -4.6566128e-12, y: 0.0046705073, z: -6.493792e-11}
+      rotation: {x: -0.64085007, y: 0.00000004384596, z: 0.011028737, w: 0.7675868}
+      scale: {x: 1.0000011, y: 1.0000005, z: 0.99999976}
+    - name: kappe
+      parentName: kopf
+      position: {x: -0.0019317117, y: -0.034575503, z: 0.0008961341}
+      rotation: {x: -0.7071068, y: 0.000000022934568, z: -0.000000023496739, w: 0.7071067}
+      scale: {x: 0.73482007, y: 0.7348201, z: 0.73482054}
+    - name: kopf_end
+      parentName: kopf
+      position: {x: -0, y: 0.008006277, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: schaedel
+      parentName: kopf
+      position: {x: -0.0019317121, y: -0.03457551, z: 0.00089613383}
+      rotation: {x: -0.5163446, y: 0.4831027, z: 0.48310283, w: 0.51634455}
+      scale: {x: 0.03111286, y: 0.022993814, z: 0.061163425}
+    - name: kieferbone
+      parentName: schaedel
+      position: {x: -0.20680538, y: -0.10844337, z: 0.5336574}
+      rotation: {x: 0.00000044400306, y: -0.00000014155607, z: -0.6820346, w: 0.7313199}
+      scale: {x: 43.44639, y: 32.199963, z: 16.34966}
+    - name: Bone.001
+      parentName: kieferbone
+      position: {x: 0.0031217104, y: 0.0025813666, z: 0.0028914378}
+      rotation: {x: 0.86299175, y: -0.08678315, z: -0.15935893, w: -0.47150698}
+      scale: {x: 1.0004185, y: 1.0001062, z: 1.0002735}
+    - name: Bone
+      parentName: Bone.001
+      position: {x: -4.375579e-11, y: 0.0046365703, z: 4.6566126e-11}
+      rotation: {x: -0.17651561, y: -0.2791414, z: 0.28511488, w: 0.8997955}
+      scale: {x: 1.0014797, y: 0.9840154, z: 1.0144804}
+    - name: Bone_end
+      parentName: Bone
+      position: {x: -0, y: 0.0033112639, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bone.003
+      parentName: kieferbone
+      position: {x: -0.0031217104, y: 0.0026007798, z: 0.002891246}
+      rotation: {x: 0.8632686, y: 0.08399862, z: 0.1608647, w: -0.47099265}
+      scale: {x: 1.0003673, y: 1.000135, z: 1.0002902}
+    - name: Bone.002
+      parentName: Bone.003
+      position: {x: 2.447632e-10, y: 0.0046365703, z: -2.7939677e-11}
+      rotation: {x: -0.17651574, y: 0.27914113, z: -0.28511468, w: 0.89979553}
+      scale: {x: 0.99873155, y: 1.0157672, z: 0.98547924}
+    - name: Bone.002_end
+      parentName: Bone.002
+      position: {x: -0, y: 0.0033112639, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: oberarm.l
+      parentName: wirbelsaeule 1
+      position: {x: -0.008441931, y: 0.014435427, z: 0.0030820125}
+      rotation: {x: 0.45955446, y: -0.47500587, z: 0.5238029, w: 0.53741014}
+      scale: {x: 1.0000088, y: 1.0000067, z: 1.0000068}
+    - name: unterarm.l
+      parentName: oberarm.l
+      position: {x: -0.000000001550652, y: 0.012672077, z: -0.000000003799796}
+      rotation: {x: -0.0136446785, y: 0.018319694, z: 0.00078384567, w: 0.9997388}
+      scale: {x: 1.0000068, y: 1.0000039, z: 1.0000082}
+    - name: handgelenk.l
+      parentName: unterarm.l
+      position: {x: 2.9802322e-10, y: 0.012461598, z: -2.2351741e-10}
+      rotation: {x: -0.006113478, y: -0.047150634, z: -0.0029522157, w: 0.9988647}
+      scale: {x: 1.0000085, y: 1.000009, z: 1.0000104}
+    - name: waffe.l
+      parentName: handgelenk.l
+      position: {x: 1.11758706e-10, y: 0.0058301203, z: 0}
+      rotation: {x: 0.707093, y: 0.7051185, z: 0.052983467, w: 0.004495159}
+      scale: {x: 1.0000113, y: 1.0000032, z: 1.0000094}
+    - name: Cylinder
+      parentName: waffe.l
+      position: {x: -0.012776942, y: -0.0012608647, z: -0.011001696}
+      rotation: {x: -0.50424343, y: 0.48174334, z: 0.5698362, w: 0.43468225}
+      scale: {x: 0.077478245, y: 0.07747828, z: 0.8792112}
+    - name: Cylinder.001
+      parentName: Cylinder
+      position: {x: -0.0000024414062, y: 0.0000049591063, z: 0.00000038862228}
+      rotation: {x: 1, y: 0.000011884707, z: 0.000051894225, w: -0.00001926881}
+      scale: {x: -0.9999999, y: -1, z: -1}
+    - name: waffe.l_end
+      parentName: waffe.l
+      position: {x: -0, y: 0.024581542, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: oberarm.r
+      parentName: wirbelsaeule 1
+      position: {x: 0.00844195, y: 0.01443543, z: 0.0030819976}
+      rotation: {x: 0.5238023, y: 0.5374108, z: 0.4595539, w: -0.47500643}
+      scale: {x: 1.0000097, y: 1.0000094, z: 1.0000098}
+    - name: unterarm.r
+      parentName: oberarm.r
+      position: {x: 0.000000002235174, y: 0.012672081, z: 0.000000002235174}
+      rotation: {x: 0.013644291, y: -0.018319009, z: 0.00078395, w: 0.9997388}
+      scale: {x: 1.0000129, y: 1.0000099, z: 1.0000099}
+    - name: handgelenk.r
+      parentName: unterarm.r
+      position: {x: 4.4703483e-10, y: 0.012461598, z: 4.4703483e-10}
+      rotation: {x: 0.0061151804, y: 0.04715141, z: -0.0029525184, w: 0.9988647}
+      scale: {x: 1.0000069, y: 1.0000122, z: 1.0000106}
+    - name: handgelenk.r_end
+      parentName: handgelenk.r
+      position: {x: -0, y: 0.0058301208, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: schenkel.r
+      parentName: lende
+      position: {x: -0.00184759, y: -0.0014974093, z: 0.006150838}
+      rotation: {x: 0.9806404, y: 0.0122981975, z: 0.18070124, w: -0.07443295}
+      scale: {x: 0.9999972, y: 1.0000287, z: 0.99998325}
+    - name: wade.r
+      parentName: schenkel.r
+      position: {x: -0.0000000013038516, y: 0.021956699, z: 4.0046869e-10}
+      rotation: {x: 0.05426469, y: 0.53877056, z: -0.04274353, w: -0.8396158}
+      scale: {x: 1.000017, y: 1.0000293, z: 0.99999887}
+    - name: fuss.r
+      parentName: wade.r
+      position: {x: -2.9802322e-10, y: 0.01894412, z: 2.9802322e-10}
+      rotation: {x: 0.46224302, y: -0.40921235, z: 0.26358983, w: 0.74121326}
+      scale: {x: 1.0001187, y: 0.9999831, z: 0.9999307}
+    - name: fuss.r_end
+      parentName: fuss.r
+      position: {x: -0, y: 0.011431537, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: schenkel.l
+      parentName: lende
+      position: {x: -0.0018474015, y: -0.0014007854, z: -0.006349513}
+      rotation: {x: 0.8986231, y: 0.05048096, z: 0.43339285, w: 0.045813344}
+      scale: {x: 0.99998003, y: 1.0000372, z: 1.0000563}
+    - name: wade.l
+      parentName: schenkel.l
+      position: {x: 3.7252902e-11, y: 0.021956692, z: 0.0000000013411044}
+      rotation: {x: -0.05918603, y: 0.7278078, z: -0.035620864, w: -0.6822931}
+      scale: {x: 1.0000118, y: 1.0000197, z: 1.0000074}
+    - name: fuss.l
+      parentName: wade.l
+      position: {x: -2.4214386e-10, y: 0.01894412, z: -2.2351741e-10}
+      rotation: {x: 0.051486924, y: -0.73958606, z: -0.52961844, w: -0.41214788}
+      scale: {x: 1.0000055, y: 1.000039, z: 0.99999464}
+    - name: fuss.l_end
+      parentName: fuss.l
+      position: {x: -0, y: 0.0114315385, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ellbogenik.r
+      parentName: wirbelsaeule
+      position: {x: 0.034460753, y: 0.012214445, z: 0.0022555995}
+      rotation: {x: 0.00000008940697, y: 0.0000000055218212, z: -0.00000002790895,
+        w: 1}
+      scale: {x: 1, y: 0.99999636, z: 0.99999636}
+    - name: ellbogenik.r_end
+      parentName: ellbogenik.r
+      position: {x: -0, y: 0.005125855, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: handgelenkik.l
+      parentName: wirbelsaeule
+      position: {x: -0.00950433, y: -0.0053581535, z: 0.0068525076}
+      rotation: {x: 0.70543486, y: -0.7071068, z: 0.00008764863, w: 0.04859674}
+      scale: {x: 1.000003, y: 1.0000063, z: 1.0000054}
+    - name: handgelenkik.l_end
+      parentName: handgelenkik.l
+      position: {x: -0, y: 0.008482669, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ellbogenik.l
+      parentName: wirbelsaeule
+      position: {x: -0.022811681, y: 0.009017474, z: 0.014871213}
+      rotation: {x: 0.00000008940697, y: 0.000000005521823, z: -0.000000020322402,
+        w: 1}
+      scale: {x: 1.0000001, y: 0.99999607, z: 0.99999607}
+    - name: ellbogenik.l_end
+      parentName: ellbogenik.l
+      position: {x: -0, y: 0.0044058166, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: handgelenkik.r
+      parentName: wirbelsaeule
+      position: {x: 0.010965302, y: -0.00584686, z: 0.021141281}
+      rotation: {x: 0.00008699298, y: 0.048595518, z: 0.7054349, w: -0.7071068}
+      scale: {x: 1.0000025, y: 1.0000066, z: 0.9999993}
+    - name: handgelenkik.r_end
+      parentName: handgelenkik.r
+      position: {x: -0, y: 0.008704602, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: fussik.l
+      parentName: wirbelsaeule
+      position: {x: -0.0030444264, y: 0.0016381416, z: -0.04051847}
+      rotation: {x: 0.9554118, y: -0.063838534, z: -0.16762303, w: -0.23455393}
+      scale: {x: 0.9999989, y: 1.0000073, z: 1.0000057}
+    - name: fussik.l_end
+      parentName: fussik.l
+      position: {x: -0, y: 0.016656725, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: knieik.l
+      parentName: wirbelsaeule
+      position: {x: -0.020779755, y: -0.051085547, z: -0.022846863}
+      rotation: {x: 0.0000000055218212, y: -0.00000008940697, z: 1, w: 0.00000002790895}
+      scale: {x: 1.0000072, y: 0.99999714, z: 0.99999714}
+    - name: knieik.l_end
+      parentName: knieik.l
+      position: {x: -0, y: 0.012349858, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Fussik.r
+      parentName: wirbelsaeule
+      position: {x: 0.00439813, y: 0.01054565, z: -0.037753027}
+      rotation: {x: 0.024409372, y: -0.21732134, z: 0.96969765, w: -0.10891391}
+      scale: {x: 1.0000163, y: 1.0000107, z: 0.99999917}
+    - name: Fussik.r_end
+      parentName: Fussik.r
+      position: {x: -0, y: 0.016818905, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: knieik.r
+      parentName: wirbelsaeule
+      position: {x: 0.024427844, y: -0.05092925, z: -0.023491144}
+      rotation: {x: 0.0000000055218212, y: -0.00000008940697, z: 1, w: 0.00000002790895}
+      scale: {x: 1.0000072, y: 0.99999714, z: 0.99999714}
+    - name: knieik.r_end
+      parentName: knieik.r
+      position: {x: -0, y: 0.011894312, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: kopfik
+      parentName: wirbelsaeule
+      position: {x: 0.00048619686, y: 0.0006984377, z: 0.046410598}
+      rotation: {x: 0.7071068, y: -0.00000001583009, z: -0.000000023639124, w: 0.7071067}
+      scale: {x: 1, y: 0.9999951, z: 0.9999951}
+    - name: kopfik_end
+      parentName: kopfik
+      position: {x: -0, y: 0.011573353, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 3
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
