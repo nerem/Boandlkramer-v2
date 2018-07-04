@@ -14,12 +14,12 @@ public class Interactable : MonoBehaviour {
 
 	void OnMouseEnter () {
 		// highlight object on mouse over
-		GetComponent<MeshRenderer> ().material.color = Color.green;
+		//GetComponent<MeshRenderer> ().material.color = Color.green;
 	}
 
 	void OnMouseExit () {
 		// remove highlighting
-		GetComponent<MeshRenderer> ().material.color = Color.red;
+		//GetComponent<MeshRenderer> ().material.color = Color.red;
 	}
 
 	void OnDrawGizmosSelected () {
