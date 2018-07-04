@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f2428fa76a068ba4484ba8fdb5539f72, type: 3}
+  m_Name: Barrels01
+  m_EditorClassIdentifier: 
+  Object: {fileID: 1268684721735814, guid: cb0b1ef2dc0fcd548a46980f70579d6b, type: 2}
+  Tags:
+  - Wall Deco
+  - Clutter
+  - No Light
+  Rules: []
+  DecoRules:
+  - Direction: 4
+    Rule: {fileID: 11400000, guid: 604e3b0f071b54842880a2c23b68eb0a, type: 2}
+  MinPosition: {x: -0.2, y: 0, z: 0.05}
+  MaxPosition: {x: 0.22, y: 0, z: 0.1}
+  MinRotation: {x: 0, y: 0, z: 0}
+  MaxRotation: {x: 0, y: 360, z: 0}

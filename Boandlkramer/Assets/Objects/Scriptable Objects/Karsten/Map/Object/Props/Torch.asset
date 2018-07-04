@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f2428fa76a068ba4484ba8fdb5539f72, type: 3}
+  m_Name: Torch
+  m_EditorClassIdentifier: 
+  Object: {fileID: 1830139559528362, guid: 2bf79a6456d30384bb69595bafa1ee71, type: 2}
+  Tags:
+  - Wall Deco
+  - Light
+  Rules:
+  - Direction: 4
+    Rule: {fileID: 11400000, guid: c0cebbb5b588af841a4bc09c61b2f083, type: 2}
+  - Direction: 4
+    Rule: {fileID: 11400000, guid: 26c5065255d8a1b4ba0a5c4687c55bf4, type: 2}
+  DecoRules:
+  - Direction: 3
+    Rule: {fileID: 11400000, guid: 604e3b0f071b54842880a2c23b68eb0a, type: 2}
+  - Direction: 1
+    Rule: {fileID: 11400000, guid: 604e3b0f071b54842880a2c23b68eb0a, type: 2}
+  MinPosition: {x: -0.023, y: -0.3, z: 0}
+  MaxPosition: {x: 0.23, y: -0.16, z: 0}
+  MinRotation: {x: 0, y: 0, z: 0}
+  MaxRotation: {x: 0, y: 0, z: 0}

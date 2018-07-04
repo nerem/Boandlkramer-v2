@@ -22,7 +22,7 @@ GameObject:
   - component: {fileID: 33548582135967620}
   - component: {fileID: 23350045532250582}
   - component: {fileID: 65973040713674264}
-  - component: {fileID: 208879726298084606}
+  - component: {fileID: 208992306261563158}
   m_Layer: 0
   m_Name: Wall_Preset_04_Damaged
   m_TagString: Untagged
@@ -126,7 +126,7 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 6.000004, y: 2.9804, z: 1.446429}
   m_Center: {x: 0.000002026558, y: 1.4902, z: -0.54471946}
---- !u!208 &208879726298084606
+--- !u!208 &208992306261563158
 NavMeshObstacle:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -137,7 +137,7 @@ NavMeshObstacle:
   m_Shape: 1
   m_Extents: {x: 3.0000002, y: 1.4900001, z: 0.72300005}
   m_MoveThreshold: 0.1
-  m_Carve: 1
+  m_Carve: 0
   m_CarveOnlyStationary: 1
   m_Center: {x: 0, y: 1.4900001, z: -0.545}
   m_TimeToStationary: 0.5

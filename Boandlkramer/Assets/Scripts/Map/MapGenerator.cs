@@ -44,7 +44,7 @@ public class MapGenerator : MonoBehaviour {
 		//GridRenderer.Create (map.Grid, new GameObject ("Map").transform, rule: x => x.Type == TileType.Room ? Highlight : Material);
 		//GridRenderer.Create (map.Grid, parent: new GameObject ("Map").transform, rule: x => x.Type == TileType.Room ? Highlight : Material);
 		Transform t = new GameObject ("MAP").transform;
-		t.position += new Vector3 (0, -1, 0);
+		t.position += new Vector3 (0, 0, 0);
 		Theme.Build (map, t);
 	}
 

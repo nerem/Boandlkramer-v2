@@ -16,16 +16,7 @@ namespace LoG.Map {
 		public GameObject Object;
 		public List<string> Tags;
 		public List<DirectedRule> Rules;
-		#endregion
-
-		#region CONSTRUCTOR
-		public MapObject () {
-
-		}
-
-		public MapObject (MapObject obj) {
-
-		}
+		public DecorationNode Node;
 		#endregion
 
 		#region PUBLIC FUNCTIONS
