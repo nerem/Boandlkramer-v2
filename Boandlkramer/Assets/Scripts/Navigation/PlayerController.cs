@@ -125,8 +125,8 @@ public class PlayerController : MonoBehaviour {
 
 		if (Physics.Raycast (ray, out hit, 100, mask)) {
 
+			Debug.Log(hit.collider.name);
 			if (hit.collider.GetComponent<Interactable> () != null) {
-
 				StartCoroutine (MoveToInteract (hit.collider.GetComponent<Interactable> ()));
 			}
 			else if (hit.collider.GetComponent<Enemy> () != null) {
@@ -214,8 +214,8 @@ public class PlayerController : MonoBehaviour {
 			
 			yield return null;
 		}
-
 		target.Interact(GetComponent<Character>());
+
 
 		agent.SetDestination (transform.position);
 	}
