@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f2428fa76a068ba4484ba8fdb5539f72, type: 3}
+  m_Name: Rostrum
+  m_EditorClassIdentifier: 
+  Object: {fileID: 1105497098216840, guid: 3944462af863f6646bbeb9d62e65cddf, type: 2}
+  Tags:
+  - Wall Deco
+  - No Light
+  Rules: []
+  DecoRules: []
+  MinPosition: {x: -0.3, y: 0, z: 0.08}
+  MaxPosition: {x: 0.3, y: 0, z: 0.12}
+  MinRotation: {x: 0, y: 85, z: 0}
+  MaxRotation: {x: 0, y: 95, z: 0}

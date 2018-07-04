@@ -38,7 +38,7 @@ GameObject:
   - component: {fileID: 23306935521640244}
   - component: {fileID: 65762954455348206}
   - component: {fileID: 65539184454041170}
-  - component: {fileID: 208773394609689662}
+  - component: {fileID: 208912086418214606}
   m_Layer: 0
   m_Name: Wall_Corner_Preset_06
   m_TagString: Untagged
@@ -139,7 +139,7 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1.3679409, y: 8.325632, z: 6.2679367}
   m_Center: {x: -2.5839667, y: 0.16281605, z: -0.13396835}
---- !u!208 &208773394609689662
+--- !u!208 &208912086418214606
 NavMeshObstacle:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -150,7 +150,7 @@ NavMeshObstacle:
   m_Shape: 1
   m_Extents: {x: 3.232, y: 4.163, z: 3.1030002}
   m_MoveThreshold: 0.1
-  m_Carve: 1
+  m_Carve: 0
   m_CarveOnlyStationary: 1
   m_Center: {x: 0.026, y: 0.163, z: -0.10300001}
   m_TimeToStationary: 0.5
