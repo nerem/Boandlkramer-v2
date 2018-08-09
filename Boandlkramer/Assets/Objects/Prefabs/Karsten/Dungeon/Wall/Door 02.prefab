@@ -547,6 +547,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9d4a9612a064b74e9ddd1a9e0370576, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Color: {r: 1, g: 0.6236605, b: 0, a: 0.6509804}
   Renderer: {fileID: 23998003621461414}
   interactionRange: 2
   Door: {fileID: 1945039996017692}

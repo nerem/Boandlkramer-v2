@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Interactable : MonoBehaviour {
 
+	public Color Color = Color.magenta;
 	public MeshRenderer Renderer;
 	public float interactionRange = 2f;
 
@@ -19,6 +20,7 @@ public class Interactable : MonoBehaviour {
 		Debug.Log ("Enter");
 
 		Camera.current.GetComponent<HighlightsFX> ().objectRenderer = Renderer;
+		Camera.current.GetComponent<HighlightsFX> ().m_highlightColor = Color;
 		Camera.current.GetComponent<HighlightsFX> ().enabled = true;
 	}
 
