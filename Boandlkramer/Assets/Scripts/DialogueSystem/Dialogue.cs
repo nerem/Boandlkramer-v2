@@ -26,4 +26,5 @@ public class Dialogue {
 
     // possible replies to this dialogue block
 	public List<Reply> replies;
+
 }

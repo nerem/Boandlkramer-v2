@@ -36,23 +36,13 @@ public class DialogueManager : MonoBehaviour {
 			Destroy(child.gameObject);
 
 		}
+		currentReplies.Clear();
 		animator.SetBool("isOpen", false);
 		Debug.Log("close dialogue animation");
 	}
 
 	void AddDialogue(Dialogue dialogue)
 	{
-		/*
-		// check if there are valid replies, if so, then delete them
-		if (currentReplies.Count > 0)
-		{
-			// look for the reply given
-			for (int i = 0; i < currentReplies.Count; i++)
-			{
-				if (currentReplies[i].GetComponent<Dia>)
-			}
-		}
-		*/
 
 		// create a text box containing the sentence
 		string text = "<color=yellow>" + dialogue.name + ":</color> " + dialogue.text;
@@ -64,6 +54,8 @@ public class DialogueManager : MonoBehaviour {
 		for (int i = 0; i < dialogue.replies.Count; i++)
 		{
 			GameObject replyGO = Instantiate(replyPrefab, contentParent.transform);
+			replyGO.GetComponent<DialogueReplyButton>().reply = dialogue.replies[i];
+			replyGO.GetComponent<DialogueReplyButton>().contentParent = contentParent;
 			replyGO.GetComponent<Text>().text = (i+1) + ") " + dialogue.replies[i].reply;
 
 			if (dialogue.replies[i].replyDialogue.text == "")
