@@ -95,7 +95,8 @@ public class Enemy : Character {
 
 		// increase xp of the player
 		foreach (Character character in charactersGainingXPFromThisCharacter) {
-			character.data.IncreaseExperience (this.data.XPDropping ());
+			if (character)
+				character.data.IncreaseExperience (this.data.XPDropping ());
 		}
 
 		DropLoot ();

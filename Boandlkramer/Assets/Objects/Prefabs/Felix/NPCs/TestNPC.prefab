@@ -97,6 +97,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e37d01b108a81de41b1421958afc53e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Color: {r: 0.12878728, g: 1, b: 0, a: 0.6509804}
   Renderer: {fileID: 23463674793450468}
   interactionRange: 0.5
   startNode: {fileID: 11400000, guid: 7f39274afd2d46c40ab6d546a75505a3, type: 2}
