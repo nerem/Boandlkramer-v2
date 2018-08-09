@@ -448,6 +448,7 @@ GameObject:
   - component: {fileID: 1042627239}
   - component: {fileID: 1042627238}
   - component: {fileID: 1042627242}
+  - component: {fileID: 1042627243}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -533,6 +534,24 @@ MonoBehaviour:
   minZoom: 0.5
   maxZoom: 1
   zoomSpeed: 20
+--- !u!114 &1042627243
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1042627237}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 296a1de81b60e451a9b96e4407e7c413, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectRenderer: {fileID: 0}
+  m_selectionType: 1
+  m_sortingType: 3
+  m_fillType: 1
+  m_resolution: 1
+  m_occludersTag: Occluder
+  m_highlightColor: {r: 1, g: 0, b: 0, a: 0.65}
 --- !u!1 &1132377866 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 1113512360689092, guid: c66e9173e4eb0e14b84af9e30999eaf4,
