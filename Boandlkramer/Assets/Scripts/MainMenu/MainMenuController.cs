@@ -14,6 +14,6 @@ public class MainMenuController : MonoBehaviour {
 	public void ClickNewGame()
 	{
 		Debug.Log("New Game");
-		SceneManager.LoadScene("(F) TestLevel");
+		SceneManager.LoadScene("(F) City 2");
 	}
 }
