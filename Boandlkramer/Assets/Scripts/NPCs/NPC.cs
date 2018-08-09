@@ -21,6 +21,7 @@ public class NPC : Interactable
 
 	void Update()
 	{
+		// check if NPC is currently interacting with something
 		if (isBusy && busyWith)
 		{
 			// out of range, stop conversation
