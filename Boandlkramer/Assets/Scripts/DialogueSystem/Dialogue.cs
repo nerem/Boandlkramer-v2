@@ -13,8 +13,8 @@ public struct Reply
 	public Dialogue replyDialogue;
 }
 
-[System.Serializable]
-public class Dialogue {
+[CreateAssetMenu(fileName = "Dialogue", menuName = "Dialogue/DialogueNode", order = 1)]
+public class Dialogue : ScriptableObject {
 
     // name of the character saying these lines
 	public string name;

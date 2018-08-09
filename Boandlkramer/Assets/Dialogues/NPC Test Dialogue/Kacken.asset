@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f5e2a2d11e1720439f08851ecf49d54, type: 3}
+  m_Name: Kacken
+  m_EditorClassIdentifier: 
+  name: Horst
+  text: Alter, ich muss halt so was von kacken!!!
+  replies:
+  - reply: Junge, es stinkt!
+    replyDialogue: {fileID: 11400000, guid: f80aafc5ad33a0b4593a6ff391faf70e, type: 2}
+  - reply: Sag das nochmal?!
+    replyDialogue: {fileID: 11400000}
+  - reply: Ich muss weg...
+    replyDialogue: {fileID: 0}

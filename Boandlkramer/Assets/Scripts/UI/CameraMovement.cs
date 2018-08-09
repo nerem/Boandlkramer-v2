@@ -17,18 +17,39 @@ public class CameraMovement : MonoBehaviour {
     // initial distance from camera to player object
     private Vector3 offset;
 
+	// reference to Dialogue Manager in order to disable zooming in chat mode
+	DialogueManager dialogueManager;
+
     // Use this for initialization
     void Start ()
     {
         // save initial distance vector from player to camera 
         offset = transform.position - player.transform.position;
+
+		dialogueManager = FindObjectOfType<DialogueManager>();
     }
 
     void Update()
     {
+		if (player != null)
+			transform.position = player.transform.position + offset;
+
+		if (dialogueManager)
+		{
+			if (dialogueManager.animator.GetBool("isOpen"))
+			{
+				return;
+			}
+		}
+		else
+		{
+			dialogueManager = FindObjectOfType<DialogueManager>();
+		}
+
 		// Zoom with mouse wheel
 		if (Input.GetAxis("Mouse ScrollWheel") > 0)
         {
+
 			if (transform.position.y >= minZoom)
 				transform.localPosition += Time.deltaTime * zoomSpeed * (transform.localRotation * Vector3.forward);
 			/*
@@ -48,8 +69,7 @@ public class CameraMovement : MonoBehaviour {
 			offset = transform.position - player.transform.position;
 		}
 
-		if (player != null)
-			transform.position = player.transform.position + offset;
+
 
 	}
 	

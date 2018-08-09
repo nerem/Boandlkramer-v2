@@ -2214,25 +2214,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   interactionRange: 0.5
-  startNode:
-    name: Horst
-    text: Alter, ich muss halt soooo was von kacken!!!
-    replies:
-    - reply: Boah, Junge, es stinkt!!!
-      replyDialogue:
-        name: Horst
-        text: Ja, ich sag ja, ich muss kacken
-        replies:
-        - reply: 
-          replyDialogue:
-            name: 
-            text: 
-            replies: []
-    - reply: So was von!!!
-      replyDialogue:
-        name: 
-        text: 
-        replies: []
+  startNode: {fileID: 11400000, guid: 7f39274afd2d46c40ab6d546a75505a3, type: 2}
 --- !u!208 &1668617015
 NavMeshObstacle:
   m_ObjectHideFlags: 0
@@ -3071,6 +3053,46 @@ Prefab:
       propertyPath: m_SizeDelta.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1881753298635210, guid: c66e9173e4eb0e14b84af9e30999eaf4, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114295991215419738, guid: c66e9173e4eb0e14b84af9e30999eaf4,
+        type: 2}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: bfeacc8116444504bb2e1df69b38eb39,
+        type: 2}
+    - target: {fileID: 114295991215419738, guid: c66e9173e4eb0e14b84af9e30999eaf4,
+        type: 2}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 21249264319954298, guid: bfeacc8116444504bb2e1df69b38eb39,
+        type: 2}
+    - target: {fileID: 114680280403299084, guid: c66e9173e4eb0e14b84af9e30999eaf4,
+        type: 2}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: bfeacc8116444504bb2e1df69b38eb39,
+        type: 2}
+    - target: {fileID: 114680280403299084, guid: c66e9173e4eb0e14b84af9e30999eaf4,
+        type: 2}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 21249264319954298, guid: bfeacc8116444504bb2e1df69b38eb39,
+        type: 2}
+    - target: {fileID: 114899829011899522, guid: c66e9173e4eb0e14b84af9e30999eaf4,
+        type: 2}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: bfeacc8116444504bb2e1df69b38eb39,
+        type: 2}
+    - target: {fileID: 114899829011899522, guid: c66e9173e4eb0e14b84af9e30999eaf4,
+        type: 2}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 21249264319954298, guid: bfeacc8116444504bb2e1df69b38eb39,
+        type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c66e9173e4eb0e14b84af9e30999eaf4, type: 2}
   m_IsPrefabParent: 0
