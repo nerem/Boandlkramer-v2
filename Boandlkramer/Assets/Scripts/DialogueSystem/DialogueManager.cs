@@ -58,7 +58,7 @@ public class DialogueManager : MonoBehaviour {
 			replyGO.GetComponent<DialogueReplyButton>().contentParent = contentParent;
 			replyGO.GetComponent<Text>().text = (i+1) + ") " + dialogue.replies[i].reply;
 
-			if (dialogue.replies[i].replyDialogue.text == "")
+			if (!dialogue.replies[i].replyDialogue || dialogue.replies[i].replyDialogue.text == "")
 			{
 				// if there is no next dialogue to this reply, we add and "[Ende]" tag in order to indicate that this answer will 
 				// end the dialogue.
