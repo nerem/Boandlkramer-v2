@@ -11,6 +11,7 @@ public class MapGenerator : MonoBehaviour {
 
 	public int seed;
 	public MapTheme Theme;
+	public MapObject Exit;
 
 	void Start () {
 		Random.InitState (seed);
@@ -46,6 +47,15 @@ public class MapGenerator : MonoBehaviour {
 		Transform t = new GameObject ("MAP").transform;
 		t.position += new Vector3 (0, 0, 0);
 		Theme.Build (map, t);
+		MapNode wall = map.RandomWall;
+		MapObject obj = Instantiate (Exit);
+		MapObject old = wall.Object;
+		wall.Object = obj;
+		GameObject instance = Instantiate (obj.Object, (Vector3)old.Node.Position, (Quaternion)old.Node.Rotation);
+		if (old.Object.transform.parent != null)
+			instance.transform.SetParent (old.Object.transform.parent, false);
+		wall.Object.Object = instance;
+		Destroy (old.Object.gameObject);
 	}
 
 	public float RandomNormal (float mean = 0, float std = 1, float range = 3f) {

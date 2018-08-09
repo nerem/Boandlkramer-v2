@@ -50,7 +50,7 @@ public class Character : MonoBehaviour {
     // movement values
     float speed;
     float angularSpeed;
-    float acceleration;
+	float acceleration;
 
 
 

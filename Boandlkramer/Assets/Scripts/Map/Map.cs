@@ -39,6 +39,14 @@ namespace LoG.Map {
 				return list;
 			}
 		}
+		public MapNode RandomWall {
+			get {
+				foreach (var tile in Grid.Elements)
+					if (tile.Value.Nodes.Keys.Contains (NodeType.Wall) && tile.Value.Nodes[NodeType.Wall].Count > 0)
+						return tile.Value.Nodes[NodeType.Wall][0];
+				return null;
+			}
+		}
 		#endregion
 
 		#region CONSTRUCTOR

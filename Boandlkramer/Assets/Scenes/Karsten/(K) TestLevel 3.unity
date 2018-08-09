@@ -666,6 +666,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   seed: 1
   Theme: {fileID: 11400000, guid: 5e9ae3ca4276bda47897507a01650995, type: 2}
+  Exit: {fileID: 11400000, guid: fbd7db044d6cc5547bc70d95a7040d86, type: 2}
 --- !u!1 &1199634643
 GameObject:
   m_ObjectHideFlags: 0
@@ -1798,6 +1799,16 @@ Prefab:
     - target: {fileID: 224265075840996524, guid: c66e9173e4eb0e14b84af9e30999eaf4,
         type: 2}
       propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224637744260072608, guid: c66e9173e4eb0e14b84af9e30999eaf4,
+        type: 2}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224637744260072608, guid: c66e9173e4eb0e14b84af9e30999eaf4,
+        type: 2}
+      propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
