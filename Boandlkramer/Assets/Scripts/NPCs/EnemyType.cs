@@ -5,6 +5,8 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "Enemy", menuName = "NPCs/Enemy", order = 1)]
 public class EnemyType : ScriptableObject {
 
+	public GameObject Object;
+
 	public int health = 100;
 	public int mana = 100;
 
