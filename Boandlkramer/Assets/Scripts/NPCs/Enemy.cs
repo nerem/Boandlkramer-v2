@@ -8,8 +8,7 @@ using UnityEngine.UI;
 public class Enemy : Character {
 
 	Item[] loot;
-	[SerializeField]
-	EnemyType enemyType;
+	public EnemyType enemyType;
 
 	[SerializeField]
 	ParticleSystem dyingEffect;
@@ -35,7 +34,7 @@ public class Enemy : Character {
 
 	}
 
-	void LoadCharacterData()
+	public void LoadCharacterData()
 	{
 		data.attributes["strength"].SetBase(enemyType.strength);
 		data.attributes["dexterity"].SetBase(enemyType.dexterity);
