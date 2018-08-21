@@ -29,4 +29,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Felix/(F) City 4.unity
     guid: 45885631ec580e247aca71a6da598ebb
+  - enabled: 1
+    path: Assets/Scenes/Felix/(F) GameOver.unity
+    guid: 39002fa35fa55ec459e4480ba4c47a7a
   m_configObjects: {}

@@ -647,7 +647,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   seed: 1
   Theme: {fileID: 11400000, guid: 5e9ae3ca4276bda47897507a01650995, type: 2}
+  Entrance: {fileID: 0}
   Exit: {fileID: 0}
+  numberCells: 150
+  SpawnPoint: {fileID: 0}
 --- !u!1 &1199634643
 GameObject:
   m_ObjectHideFlags: 0
@@ -1440,7 +1443,7 @@ Prefab:
     - target: {fileID: 224797677230098082, guid: c66e9173e4eb0e14b84af9e30999eaf4,
         type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: 0.00002461694
+      value: 0.000027596563
       objectReference: {fileID: 0}
     - target: {fileID: 224917483310559408, guid: c66e9173e4eb0e14b84af9e30999eaf4,
         type: 2}

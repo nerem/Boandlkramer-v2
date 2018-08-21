@@ -3,6 +3,7 @@ using UnityEngine;
 using TMPro;
 using UnityEngine.AI;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class Character : MonoBehaviour {
 
@@ -260,8 +261,6 @@ public class Character : MonoBehaviour {
         if (data.stats["health"].Current <= 0)
         {
             Death();
-            if (GetComponent<BoandlAnimation>() != null)
-                GetComponent<BoandlAnimation>().Trigger("Death");
         }
     }
 
@@ -345,7 +344,30 @@ public class Character : MonoBehaviour {
 
 	protected virtual void Death () {
 
-		Destroy (gameObject);
+		if (!gameObject.tag.Equals("Player"))
+		{
+			Destroy(gameObject, 1f);
+		}
+		// player has died, goto game over scene
+		else
+		{
+			if (GetComponent<BoandlAnimation>() != null)
+			{
+				// play death animation
+				GetComponent<BoandlAnimation>().Trigger("Death");
+
+				// restore health of player
+				data.stats["health"].Current = data.stats["health"].Max;
+				data.stats["mana"].Current = data.stats["mana"].Max;
+
+				// load game over scene
+				PlayerController playerController = GetComponent<PlayerController>();
+				playerController.StartCoroutine(playerController.Teleport());
+				SceneManager.LoadScene("(F) GameOver");
+			}
+		}
+
+
 	}
 
 	IEnumerator AttackCooldown (float amount) {

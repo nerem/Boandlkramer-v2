@@ -963,7 +963,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 386b62f3800d4564c88c07b768bcc95e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tilePrefab: {fileID: 1529135531689544, guid: 6da5af6c333bc534d907855ff1b03942, type: 2}
 --- !u!4 &1540098111
 Transform:
   m_ObjectHideFlags: 0
@@ -1847,6 +1846,26 @@ Prefab:
       propertyPath: m_SizeDelta.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 224637744260072608, guid: c66e9173e4eb0e14b84af9e30999eaf4,
+        type: 2}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224637744260072608, guid: c66e9173e4eb0e14b84af9e30999eaf4,
+        type: 2}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224637744260072608, guid: c66e9173e4eb0e14b84af9e30999eaf4,
+        type: 2}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224797677230098082, guid: c66e9173e4eb0e14b84af9e30999eaf4,
+        type: 2}
+      propertyPath: m_AnchoredPosition.y
+      value: 0.000016771515
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c66e9173e4eb0e14b84af9e30999eaf4, type: 2}
   m_IsPrefabParent: 0
@@ -2014,19 +2033,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 10bc6ec609e431c41a387b3cf5e39861, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hallwayLengthMin: 3
-  hallwayLengthMax: 8
-  roomWidthMin: 3
-  roomWidthMax: 6
-  roomHeightMin: 3
-  roomHeightMax: 6
-  roomCount: 5
-  numberOfEnemies: 10
-  map: []
-  templateGenerator: {fileID: 1540098110}
-  sphere: {fileID: 1676484591747788, guid: 889e5eb0ec1cab74d8b68e6ff0654054, type: 2}
-  tileset: {fileID: 11400000, guid: 341051881668d0b4a976a00ba08f7b52, type: 2}
-  spawner: {fileID: 2007020481}
+  seed: 0
+  Theme: {fileID: 0}
+  Entrance: {fileID: 0}
+  Exit: {fileID: 0}
+  numberCells: 150
+  SpawnPoint: {fileID: 0}
 --- !u!4 &2007020480
 Transform:
   m_ObjectHideFlags: 0
@@ -2051,10 +2063,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8bec2999cac03b04ea5e0ca06920610a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mapGenerator: {fileID: 2007020479}
-  player: {fileID: 223142903}
-  enemies:
-  - {fileID: 1642583941272900, guid: a3bac58095c9d8441b11c71f68dc07ed, type: 2}
 --- !u!114 &2056786445 stripped
 MonoBehaviour:
   m_PrefabParentObject: {fileID: 114295518614149522, guid: c66e9173e4eb0e14b84af9e30999eaf4,
