@@ -562,6 +562,7 @@ MonoBehaviour:
   minZoom: 0.8
   maxZoom: 2
   zoomSpeed: 0.33
+  rotationSpeed: 75
 --- !u!114 &1042627243
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2013,7 +2014,7 @@ Prefab:
     - target: {fileID: 224797677230098082, guid: c66e9173e4eb0e14b84af9e30999eaf4,
         type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: 0.000041022933
+      value: 0.000019503885
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c66e9173e4eb0e14b84af9e30999eaf4, type: 2}

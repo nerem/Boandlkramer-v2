@@ -14,6 +14,10 @@ public class CameraMovement : MonoBehaviour {
     // Zoom Speed
     public float zoomSpeed = 0.33f;
 
+	// rotation Speed and flag for rotating the camera
+	public float rotationSpeed = 75f;
+	bool bRotate = false;
+
     // initial distance from camera to player object
     private Vector3 offset;
 
@@ -69,6 +73,24 @@ public class CameraMovement : MonoBehaviour {
                 Camera.main.fieldOfView += zoomSpeed;
 			*/
 		}
+
+		// rotate camera
+		if (Input.GetMouseButtonDown(2))
+		{
+			bRotate = true;
+		}
+
+		if (Input.GetMouseButtonUp(2))
+		{
+			bRotate = false;
+		}
+
+		if (bRotate)
+		{
+			float val = Input.GetAxis("Mouse X");
+			transform.RotateAround(player.transform.position, Vector3.up, val * rotationSpeed * Time.deltaTime);
+		}
+
 
 		AdjustCamera();
 
