@@ -8,6 +8,7 @@ TagManager:
   - highlight
   - Pickup
   - blooddecalspawner
+  - MapGen
   layers:
   - Default
   - TransparentFX

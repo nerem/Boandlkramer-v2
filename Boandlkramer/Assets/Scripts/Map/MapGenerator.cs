@@ -14,8 +14,8 @@ public class MapGenerator : MonoBehaviour {
 	public MapObject Exit;
 
 	void Start () {
-		Random.InitState (seed);
-		TestRandomGen ();
+		//Random.InitState (seed);
+		//TestRandomGen ();
 	}
 
 	public void TestRandomGen () {
