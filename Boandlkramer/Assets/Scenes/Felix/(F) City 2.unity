@@ -1502,7 +1502,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11400000, guid: bcae914220acd4907840a029bb9d9aec, type: 2}
       propertyPath: waterMode
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 2300000, guid: bcae914220acd4907840a029bb9d9aec, type: 2}
       propertyPath: m_DynamicOccludee
@@ -2120,7 +2120,7 @@ Prefab:
     - target: {fileID: 224797677230098082, guid: c66e9173e4eb0e14b84af9e30999eaf4,
         type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: 0.000022544464
+      value: 0.000027616028
       objectReference: {fileID: 0}
     - target: {fileID: 224917483310559408, guid: c66e9173e4eb0e14b84af9e30999eaf4,
         type: 2}

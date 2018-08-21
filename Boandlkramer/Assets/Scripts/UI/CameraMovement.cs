@@ -34,8 +34,6 @@ public class CameraMovement : MonoBehaviour {
 		if (player != null)
 			transform.position = player.transform.position + offset;
 
-		Debug.Log("Offset " + offset.ToString());
-		Debug.Log("Camera Z = " + transform.position.z);
 
 		if (dialogueManager)
 		{
@@ -81,14 +79,13 @@ public class CameraMovement : MonoBehaviour {
 		while (transform.position.y < minZoom)
 		{
 			transform.localPosition -= zoomSpeed * (transform.localRotation * Vector3.forward);
-			Debug.Log("Adjust minZoom");
 		}
 		
 		while (transform.position.y > maxZoom)
 		{
 			transform.localPosition += zoomSpeed * (transform.localRotation * Vector3.forward);
-			Debug.Log("Adjust maxZoom");
 		}
+
 		offset = transform.position - player.transform.position;
 	}
 	

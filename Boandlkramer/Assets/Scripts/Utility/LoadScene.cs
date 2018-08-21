@@ -8,7 +8,7 @@ public class LoadScene : MonoBehaviour {
 	void Update () {
 		if (Input.GetMouseButtonDown (0)) {
 			Debug.Log ("Load Empty Scene.");
-			SceneManager.LoadScene ("(K) Empty");
+			SceneManager.LoadScene ("(F) City 3");
 		}
 	}
 }
