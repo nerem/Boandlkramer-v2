@@ -15,9 +15,12 @@ EditorBuildSettings:
     path: Assets/Scenes/Felix/(F) TestLevel.unity
     guid: 86e88dfc535656e4a996859ef3190fbe
   - enabled: 1
-    path: Assets/Scenes/Karsten/(K) TestLevel 3.unity
-    guid: 7ca60affc7895f840beb8a31c8c08709
-  - enabled: 1
     path: Assets/Scenes/Felix/(F) City 2.unity
     guid: b0efcbcce77e9164c8c76ee9d14b6ff0
+  - enabled: 1
+    path: Assets/Scenes/Karsten/(K) TestLevel 3.unity
+    guid: 5b7eee6485b947d4098b66f2e5c67598
+  - enabled: 1
+    path: Assets/Scenes/Karsten/(K) Empty.unity
+    guid: db1cb88c002e9f148ac6d3905db7a7e5
   m_configObjects: {}
