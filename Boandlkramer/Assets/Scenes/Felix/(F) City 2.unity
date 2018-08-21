@@ -934,9 +934,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 606350448}
-  minZoom: 0.5
-  maxZoom: 1
-  zoomSpeed: 20
+  minZoom: 0.8
+  maxZoom: 2
+  zoomSpeed: 0.33
 --- !u!114 &1042627243
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1073,7 +1073,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4708924643158044, guid: 9fa0ac47407850d4c900662ecdaf2990, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -0.449
       objectReference: {fileID: 0}
     - target: {fileID: 4708924643158044, guid: 9fa0ac47407850d4c900662ecdaf2990, type: 2}
       propertyPath: m_LocalPosition.z
@@ -1127,6 +1127,16 @@ Prefab:
     - target: {fileID: 4708924643158044, guid: 9fa0ac47407850d4c900662ecdaf2990, type: 2}
       propertyPath: m_LocalScale.y
       value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 195387109157442022, guid: 9fa0ac47407850d4c900662ecdaf2990,
+        type: 2}
+      propertyPath: m_Height
+      value: 4.63
+      objectReference: {fileID: 0}
+    - target: {fileID: 195387109157442022, guid: 9fa0ac47407850d4c900662ecdaf2990,
+        type: 2}
+      propertyPath: m_Radius
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9fa0ac47407850d4c900662ecdaf2990, type: 2}
@@ -2110,7 +2120,7 @@ Prefab:
     - target: {fileID: 224797677230098082, guid: c66e9173e4eb0e14b84af9e30999eaf4,
         type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: 0.000018536071
+      value: 0.000022544464
       objectReference: {fileID: 0}
     - target: {fileID: 224917483310559408, guid: c66e9173e4eb0e14b84af9e30999eaf4,
         type: 2}
