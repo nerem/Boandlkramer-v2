@@ -8,11 +8,11 @@ public class CameraMovement : MonoBehaviour {
     public GameObject player;
 
     // Zoom Range
-    public float minZoom = 30f;
-    public float maxZoom = 60f;
+    public float minZoom = .8f;
+    public float maxZoom = 2f;
 
     // Zoom Speed
-    public float zoomSpeed = 4f;
+    public float zoomSpeed = 0.33f;
 
     // initial distance from camera to player object
     private Vector3 offset;
@@ -29,13 +29,17 @@ public class CameraMovement : MonoBehaviour {
 		dialogueManager = FindObjectOfType<DialogueManager>();
     }
 
-    void Update()
+    void LateUpdate()
     {
 		if (player != null)
 			transform.position = player.transform.position + offset;
 
+		Debug.Log("Offset " + offset.ToString());
+		Debug.Log("Camera Z = " + transform.position.z);
+
 		if (dialogueManager)
 		{
+			// while in dialogue, camera control is disabled
 			if (dialogueManager.animator.GetBool("isOpen"))
 			{
 				return;
@@ -43,6 +47,7 @@ public class CameraMovement : MonoBehaviour {
 		}
 		else
 		{
+			// in case that the dialogue manager was not found yet, try that again
 			dialogueManager = FindObjectOfType<DialogueManager>();
 		}
 
@@ -51,26 +56,40 @@ public class CameraMovement : MonoBehaviour {
         {
 
 			if (transform.position.y >= minZoom)
-				transform.localPosition += Time.deltaTime * zoomSpeed * (transform.localRotation * Vector3.forward);
+				transform.localPosition += zoomSpeed * (transform.localRotation * Vector3.forward);
 			/*
             if (Camera.main.fieldOfView >= minZoom)
                 Camera.main.fieldOfView -= zoomSpeed;
 			*/
-			offset = transform.position - player.transform.position;
 		}
         else if(Input.GetAxis("Mouse ScrollWheel") < 0)
         {
 			if (transform.position.y <= maxZoom)
-				transform.localPosition -= Time.deltaTime * zoomSpeed * (transform.localRotation * Vector3.forward);
+				transform.localPosition -= zoomSpeed * (transform.localRotation * Vector3.forward);
 			/*
 			if (Camera.main.fieldOfView <= maxZoom)
                 Camera.main.fieldOfView += zoomSpeed;
 			*/
-			offset = transform.position - player.transform.position;
 		}
 
+		AdjustCamera();
 
+	}
 
+	void AdjustCamera()
+	{
+		while (transform.position.y < minZoom)
+		{
+			transform.localPosition -= zoomSpeed * (transform.localRotation * Vector3.forward);
+			Debug.Log("Adjust minZoom");
+		}
+		
+		while (transform.position.y > maxZoom)
+		{
+			transform.localPosition += zoomSpeed * (transform.localRotation * Vector3.forward);
+			Debug.Log("Adjust maxZoom");
+		}
+		offset = transform.position - player.transform.position;
 	}
 	
 }

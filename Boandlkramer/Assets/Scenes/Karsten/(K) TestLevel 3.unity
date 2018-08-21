@@ -531,9 +531,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 606350448}
-  minZoom: 0.5
-  maxZoom: 1
-  zoomSpeed: 20
+  minZoom: 0.8
+  maxZoom: 2
+  zoomSpeed: 0.33
 --- !u!114 &1042627243
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1819,7 +1819,7 @@ Prefab:
     - target: {fileID: 224797677230098082, guid: c66e9173e4eb0e14b84af9e30999eaf4,
         type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: 0.00003648043
+      value: 0.00002672687
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c66e9173e4eb0e14b84af9e30999eaf4, type: 2}
