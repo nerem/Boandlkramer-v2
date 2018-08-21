@@ -41,7 +41,7 @@ namespace LoG.Map {
 		}
 		public MapNode RandomWall {
 			get {
-				foreach (var tile in Grid.Elements)
+				foreach (var tile in Grid.Elements.OrderBy (x => Random.value))
 					if (tile.Value.Nodes.Keys.Contains (NodeType.Wall) && tile.Value.Nodes[NodeType.Wall].Count > 0)
 						return tile.Value.Nodes[NodeType.Wall][0];
 				return null;

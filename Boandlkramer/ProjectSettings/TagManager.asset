@@ -9,6 +9,7 @@ TagManager:
   - Pickup
   - blooddecalspawner
   - MapGen
+  - PlayerContainer
   layers:
   - Default
   - TransparentFX

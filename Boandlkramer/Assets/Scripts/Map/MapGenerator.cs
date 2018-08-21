@@ -67,6 +67,7 @@ public class MapGenerator : MonoBehaviour {
 		MapObject old = wall.Object;
 		wall.Object = obj;
 		GameObject instance = Instantiate (obj.Object, (Vector3)old.Node.Position, (Quaternion)old.Node.Rotation);
+		Debug.Log ("Entrance: " + instance.transform.position.ToString ());
 		if (old.Object.transform.parent != null)
 			instance.transform.SetParent (old.Object.transform.parent, false);
 		wall.Object.Object = instance;

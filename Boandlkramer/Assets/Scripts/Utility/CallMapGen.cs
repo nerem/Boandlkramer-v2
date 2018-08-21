@@ -5,6 +5,8 @@ using UnityEngine;
 public class CallMapGen : MonoBehaviour {
 
 	void Start () {
-		GameObject.FindGameObjectWithTag ("MapGen").GetComponent<MapGenerator> ().TestRandomGen ();
+		MapGenerator mapgen = GameObject.FindGameObjectWithTag ("MapGen").GetComponent<MapGenerator> ();
+		mapgen.TestRandomGen ();
+		GameObject.FindGameObjectWithTag ("PlayerContainer").transform.position = mapgen.SpawnPoint.transform.localPosition;
 	}
 }

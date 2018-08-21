@@ -60,6 +60,12 @@ public class HighlightsFX : MonoBehaviour
 
 	#endregion
 
+	private void Update () {
+
+		if (objectRenderer == null)
+			enabled = false;
+	}
+
 	private void Awake()
 	{
 		CreateBuffers();
