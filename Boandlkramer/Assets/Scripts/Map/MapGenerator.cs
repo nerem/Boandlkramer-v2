@@ -11,7 +11,10 @@ public class MapGenerator : MonoBehaviour {
 
 	public int seed;
 	public MapTheme Theme;
+	public MapObject Entrance;
 	public MapObject Exit;
+
+	public GameObject SpawnPoint;
 
 	void Start () {
 		//Random.InitState (seed);
@@ -47,6 +50,31 @@ public class MapGenerator : MonoBehaviour {
 		Transform t = new GameObject ("MAP").transform;
 		t.position += new Vector3 (0, 0, 0);
 		Theme.Build (map, t);
+		CreateEntrance (map);
+		CreateExit (map);
+	}
+
+	public float RandomNormal (float mean = 0, float std = 1, float range = 3f) {
+		float x = 1f - Random.Range (0f, 1f);
+		float y = 1f - Random.Range (0f, 2f * Mathf.PI);
+		float z = Mathf.Sqrt (-2f * Mathf.Log (x)) * Mathf.Cos (y);
+		return Mathf.Clamp (std * z + mean, -range, range);
+	}
+
+	private void CreateEntrance (Map map) {
+		MapNode wall = map.RandomWall;
+		MapObject obj = Instantiate (Entrance);
+		MapObject old = wall.Object;
+		wall.Object = obj;
+		GameObject instance = Instantiate (obj.Object, (Vector3)old.Node.Position, (Quaternion)old.Node.Rotation);
+		if (old.Object.transform.parent != null)
+			instance.transform.SetParent (old.Object.transform.parent, false);
+		wall.Object.Object = instance;
+		Destroy (old.Object.gameObject);
+		SpawnPoint.transform.position = instance.transform.position;
+	}
+
+	private void CreateExit (Map map) {
 		MapNode wall = map.RandomWall;
 		MapObject obj = Instantiate (Exit);
 		MapObject old = wall.Object;
@@ -56,12 +84,5 @@ public class MapGenerator : MonoBehaviour {
 			instance.transform.SetParent (old.Object.transform.parent, false);
 		wall.Object.Object = instance;
 		Destroy (old.Object.gameObject);
-	}
-
-	public float RandomNormal (float mean = 0, float std = 1, float range = 3f) {
-		float x = 1f - Random.Range (0f, 1f);
-		float y = 1f - Random.Range (0f, 2f * Mathf.PI);
-		float z = Mathf.Sqrt (-2f * Mathf.Log (x)) * Mathf.Cos (y);
-		return Mathf.Clamp (std * z + mean, -range, range);
 	}
 }

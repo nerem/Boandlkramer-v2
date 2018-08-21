@@ -666,7 +666,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   seed: 1
   Theme: {fileID: 11400000, guid: 5e9ae3ca4276bda47897507a01650995, type: 2}
+  Entrance: {fileID: 0}
   Exit: {fileID: 11400000, guid: fbd7db044d6cc5547bc70d95a7040d86, type: 2}
+  SpawnPoint: {fileID: 0}
 --- !u!1 &1199634643
 GameObject:
   m_ObjectHideFlags: 0
