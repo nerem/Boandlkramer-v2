@@ -14,6 +14,8 @@ public class MapGenerator : MonoBehaviour {
 	public MapObject Entrance;
 	public MapObject Exit;
 
+	public int numberCells = 150;
+
 	public GameObject SpawnPoint;
 
 	void Start () {
@@ -23,7 +25,7 @@ public class MapGenerator : MonoBehaviour {
 
 	public void TestRandomGen () {
 		List<Rect> rects = new List<Rect> ();
-		for (int i = 0; i < 150; i++)
+		for (int i = 0; i < numberCells; i++)
 			rects.Add (Rect.GetRandom (() => RandomVector2.GetRandomInCircle (() => RandomNormal (std: 10, range: 40)), () => Vector.GetRandom (1, 6)));
 		Flock flock = new Flock (rects);
 		flock.Separate ();

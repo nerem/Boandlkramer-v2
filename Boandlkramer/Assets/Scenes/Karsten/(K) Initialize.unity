@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.37311953, g: 0.38074014, b: 0.3587274, a: 1}
+  m_IndirectSpecularColor: {r: 0.37311918, g: 0.3807398, b: 0.35872716, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -705,6 +705,7 @@ MonoBehaviour:
   Theme: {fileID: 11400000, guid: 5e9ae3ca4276bda47897507a01650995, type: 2}
   Entrance: {fileID: 11400000, guid: d9478f8f09d9a6f45ba708637c554a32, type: 2}
   Exit: {fileID: 11400000, guid: fbd7db044d6cc5547bc70d95a7040d86, type: 2}
+  numberCells: 30
   SpawnPoint: {fileID: 1781299222}
 --- !u!1 &1199634643
 GameObject:
@@ -1997,7 +1998,7 @@ Prefab:
     - target: {fileID: 224797677230098082, guid: c66e9173e4eb0e14b84af9e30999eaf4,
         type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: 0.000026498974
+      value: 0.000031367712
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c66e9173e4eb0e14b84af9e30999eaf4, type: 2}

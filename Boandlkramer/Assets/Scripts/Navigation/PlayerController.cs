@@ -241,4 +241,11 @@ public class PlayerController : MonoBehaviour {
 			yield return null;
 		}
 	}
+
+	public IEnumerator Teleport()
+	{
+		agent.enabled = false;
+		yield return new WaitForSeconds(.2f);
+		agent.enabled = true;
+	}
 }

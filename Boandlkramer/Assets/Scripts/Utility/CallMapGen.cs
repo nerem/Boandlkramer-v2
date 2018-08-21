@@ -8,5 +8,6 @@ public class CallMapGen : MonoBehaviour {
 		MapGenerator mapgen = GameObject.FindGameObjectWithTag ("MapGen").GetComponent<MapGenerator> ();
 		mapgen.TestRandomGen ();
 		GameObject.FindGameObjectWithTag ("PlayerContainer").transform.position = mapgen.SpawnPoint.transform.localPosition;
+		GameObject.FindGameObjectWithTag("Player").transform.localPosition = Vector3.zero;
 	}
 }
