@@ -31,7 +31,7 @@ public class Enemy : Character {
 		}
 		highlightGraphic = GameObject.FindGameObjectWithTag("highlight");
 
-
+		charactersGainingXPFromThisCharacter.Add(GameObject.FindGameObjectWithTag("Player").GetComponent<Character>());
 	}
 
 	public void LoadCharacterData()

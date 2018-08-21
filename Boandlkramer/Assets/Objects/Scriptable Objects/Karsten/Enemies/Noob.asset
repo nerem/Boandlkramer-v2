@@ -11,6 +11,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0264d0b0e5eafd948b5fc388349c0d82, type: 3}
   m_Name: Noob
   m_EditorClassIdentifier: 
+  Object: {fileID: 1642583941272900, guid: 930b3ae4cf27ec14aa24ff54dd956cdb, type: 2}
   health: 30
   mana: 10
   strength: 1

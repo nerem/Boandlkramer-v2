@@ -670,6 +670,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1185883339}
   - component: {fileID: 1185883340}
+  - component: {fileID: 1185883341}
   m_Layer: 0
   m_Name: Map
   m_TagString: MapGen
@@ -707,6 +708,20 @@ MonoBehaviour:
   Exit: {fileID: 11400000, guid: fbd7db044d6cc5547bc70d95a7040d86, type: 2}
   numberCells: 30
   SpawnPoint: {fileID: 1781299222}
+--- !u!114 &1185883341
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1185883338}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 188b308301cbebd4dbbf52bdf6c754ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  EnemyTypes:
+  - {fileID: 11400000, guid: f7e7b18159b609b4b81e0e8970558761, type: 2}
+  NumberOfEnemies: 20
 --- !u!1 &1199634643
 GameObject:
   m_ObjectHideFlags: 0
@@ -1998,7 +2013,7 @@ Prefab:
     - target: {fileID: 224797677230098082, guid: c66e9173e4eb0e14b84af9e30999eaf4,
         type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: 0.000023134085
+      value: 0.000026354837
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c66e9173e4eb0e14b84af9e30999eaf4, type: 2}

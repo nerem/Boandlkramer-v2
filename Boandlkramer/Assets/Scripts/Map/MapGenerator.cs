@@ -16,6 +16,8 @@ public class MapGenerator : MonoBehaviour {
 
 	public int numberCells = 150;
 
+	public Map Map;
+
 	public GameObject SpawnPoint;
 
 	void Start () {
@@ -54,6 +56,7 @@ public class MapGenerator : MonoBehaviour {
 		Theme.Build (map, t);
 		CreateEntrance (map);
 		CreateExit (map);
+		Map = map;
 	}
 
 	public float RandomNormal (float mean = 0, float std = 1, float range = 3f) {
