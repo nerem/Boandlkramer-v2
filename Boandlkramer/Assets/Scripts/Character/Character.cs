@@ -112,7 +112,19 @@ public class Character : MonoBehaviour {
 
 	public void Attack (Character other) {
 
-		if (canAttack) {
+        float angleToEnemy = Vector2.Dot(agent.transform.forward, other.agent.transform.position - agent.transform.position);
+        Debug.Log(angleToEnemy);
+
+        if (angleToEnemy < -0.05f)
+        {
+            Debug.Log("ANGLE!");
+            //Vector3 targetDirection = other.agent.transform.position - transform.position;
+            //Vector3 newDir = Vector3.RotateTowards(transform.forward, targetDirection, agent.angularSpeed * Time.deltaTime, 0.0f);
+            //transform.rotation = Quaternion.LookRotation(newDir);
+            return;
+        }
+
+        if (canAttack) {
             if(GetComponent<BoandlAnimation>()!=null)
                 GetComponent<BoandlAnimation>().Trigger("Attack");
 			StartCoroutine (AttackCooldown (CalculateAttackSpeed ()));
